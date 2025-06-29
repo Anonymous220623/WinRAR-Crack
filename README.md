@@ -72,6 +72,20 @@ b41bcf56929486b8bcdac33d50ecf77399604752331f0c57e362ab
 c5a2af5001dd92308cfe644830edafe109c0e6cdd5864023283383
 ```
 
+```
+RAR registration data
+WinRAR
+Unlimited Company License
+UID=4b914fb772c8376bf571
+6412212250f5711ad072cf351cfa39e2851192daf8a362681bbb1d
+cd48da1d14d995f0bbf960fce6cb5ffde62890079861be57638717
+7131ced835ed65cc743d9777f2ea71a8e32c7e593cf66794343565
+b41bcf56929486b8bcdac33d50ecf773996052598f1f556defffbd
+982fbe71e93df6b6346c37a3890f3c7edc65d7f5455470d13d1190
+6e6fb824bcf25f155547b5fc41901ad58c0992f570be1cf5608ba9
+aef69d48c864bcd72d15163897773d314187f6a9af350808719796
+```
+
 保存后，使用 Resource Hacker 打开 `WinRAR.exe`（WinRAR 主程序文件），
 在左侧的资源树形列表中找到 `String Table`（字符串表资源）项并展开列表，再在展开项中找到 `80` 项（简体中文版是 `80:2052` ），将这一项的内容替换为：
 
