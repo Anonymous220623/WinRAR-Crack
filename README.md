@@ -6,6 +6,8 @@ WinRAR 一直是全世界电脑用户常用的压缩软件。
 即使用户在他们的【官网】上购买了 WinRAR，广告仍然无法去除。
 更离谱的是，这个【官网】的备案号还是假的！
 
+这个所谓的【官网】就是：[winrar.com.cn](https://www.winrar.com.cn/) ，包括我在内的许多用户，都曾经不止一次地上过它的当。
+
 https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 本人十分看不惯国内软件代理公司欺诈用户的行为，因此设立此仓库，还给用户一个【不流氓】的 WinRAR。
