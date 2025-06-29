@@ -79,3 +79,53 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 此时，Resource Hacker 会将原来的程序文件做一个备份（程序目录中会多出来一个 `WinRAR_original.exe`，这是原文件的备份），
 打开 `WinRAR.exe`（新保存的文件），如果能正常运行，`WinRAR_original.exe` 就可以删除了。
 如果无法运行，请将 `WinRAR.exe`（新保存的文件）删除，将 `WinRAR_original.exe` 重命名为 `WinRAR.exe`（初始文件名），并从头重复上述步骤。 
+
+## 我还做了哪些修改？
+
+1. 将 String Table（字符串表资源）中的 `68:2052` 项替换为以下内容：
+
+   （更改了 1080、1081、1083 项）
+
+   ```
+   STRINGTABLE
+   LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+   {
+   1080, 	"了解 WinRAR"
+   1081, 	"https://www.rarlab.com"
+   1082, 	"WinRAR 在线购买"
+   1083, 	"https://www.rarlab.com"
+   1085, 	"高级自解压选项"
+   }
+   ```
+
+2. 将 Dialog（对话框资源）中的 `ABOUTRARDLG:2052` 项替换为以下内容：
+
+   （更改了第 11 和 12 行）
+
+   ```
+   ABOUTRARDLG DIALOGEX 86, 26, 310, 210
+   STYLE DS_SHELLFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+   CAPTION "关于 WinRAR 简体中文版"
+   LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+   FONT 8, "MS Shell Dlg 2"
+   {
+      CONTROL "", 109, STATIC, SS_BITMAP | SS_NOTIFY | SS_REALSIZEIMAGE | WS_CHILD | WS_VISIBLE, 11, 10, 175, 32 
+      CONTROL "WinRAR 压缩管理软件", 107, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 60, 135, 8 
+      CONTROL "版权所有 1993-%d", 108, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 71, 135, 8 
+      CONTROL "全球发行商 win.rar GmbH", 113, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 82, 135, 8 
+      CONTROL "不要相信任何【中国总代理】！", 114, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 104, 152, 16 
+      CONTROL "唯一官网：www.rarlab.com", 105, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 117, 135, 8 
+      CONTROL "作者: Alexander L. Roshal", -1, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 128, 135, 8 
+      CONTROL "", 106, STATIC, SS_LEFT | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 139, 135, 16 
+      CONTROL "", -1, STATIC, SS_ETCHEDHORZ | WS_CHILD | WS_VISIBLE, 11, 156, 135, 1 
+      CONTROL "", 101, BUTTON, BS_OWNERDRAW | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 148, 59, 40, 40 
+      CONTROL "非商业个人版", 102, STATIC, SS_LEFTNOWORDWRAP | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 161, 242, 8 
+      CONTROL "", 103, STATIC, SS_LEFT | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 169, 242, 16 
+      CONTROL "", 104, STATIC, SS_LEFTNOWORDWRAP | SS_NOPREFIX | WS_CHILD | WS_VISIBLE | WS_GROUP, 11, 185, 242, 8 
+      CONTROL "", -1, STATIC, SS_ETCHEDHORZ | WS_CHILD | WS_VISIBLE, 11, 197, 135, 1 
+      CONTROL "确定", 1, BUTTON, BS_DEFPUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 214, 9, 84, 14 
+      CONTROL "许可(&L)", 110, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 214, 26, 84, 14 
+      CONTROL "致谢(&A)", 111, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 214, 43, 84, 14 
+      CONTROL "主页(&H)", 112, BUTTON, BS_PUSHBUTTON | WS_CHILD | WS_VISIBLE | WS_TABSTOP, 214, 60, 84, 14 
+   }
+   ```
