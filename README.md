@@ -6,6 +6,7 @@
 > 
 > ![image](https://github.com/user-attachments/assets/add2fda3-5674-4022-8f6d-f7515b104149)
 
+## 前言
 
 WinRAR 一直是全世界电脑用户常用的压缩软件。
 正因如此，WinRAR 的开发团队 RarLab 会在世界各地寻找当地的**软件代理公司**给 WinRAR 做**软件翻译**和**宣传推广**。
@@ -25,7 +26,7 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 如果你不信任此处提供的破解程序，请参阅下文的[破解方法](#如果我从官网上下载了-winrar-的简体中文版本那么如何去除该软件中的广告)。
 
-## 前言
+## 随便聊聊
 
 如果你对 Windows PE 文件格式（具有 `*.exe`、`*.dll`、`*.sys` 等文件扩展名的文件格式）有一些基本了解，
 那么你应该知道 Windows PE 文件格式中有一个叫【资源】的概念，
