@@ -27,9 +27,9 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 ## 如何去除 WinRAR 简体中文版中的广告？
 
-为了修改程序文件中内置的【资源】文件，我们得使用 Resource Hacker 这个资源编辑器和反编译器。
+为了修改程序文件中内置的【资源】文件，我们得使用 Resource Hacker 这个资源编辑器和反编译器。这是它的[官网](https://www.angusj.com/resourcehacker/)。
 
-呃...首先，我们先要在程序根目录下新建一个 `rarreg.key` 文件，文件内容为：
+首先，我们先要在程序根目录下新建一个 `rarreg.key` 文件，文件内容为：
 
 ```
 RAR registration data
@@ -44,3 +44,26 @@ e9ee328f12dc73e90b6356b921fbfb8522d6562a6a4b97e8ef6c9f
 fb866be1e3826b5aa126a4d2bfe9336ad63003fc0e71c307fc2c60
 64416495d4c55a0cc82d402110498da970812063934815d81470829275
 ```
+
+保存后，使用 Resource Hacker 打开 `WinRAR.exe`（WinRAR 主程序文件），
+在左侧的资源树形列表中找到 `String Table`（字符串表资源）项并展开列表，再在展开项中找到 `80` 项（简体中文版是 `80:2052` ），将这一项的内容替换为：
+
+```
+STRINGTABLE
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+{
+  1265, 	"当前文件夹"
+  1267, 	"已选项目"
+  1268, 	"已找到 %u"
+  1269, 	"停止"
+  1275, 	"https://www.rarlab.com"
+  1276, 	"https://www.rarlab.com"
+  1278, 	"https://www.rarlab.com/themes.htm"
+}
+```
+
+按 F5 编译资源文件，再按 Ctrl+S 保存文件。
+
+此时，Resource Hacker 会将原来的程序文件做一个备份（程序目录中会多出来一个 `WinRAR_original.exe`，这是原文件的备份），
+打开 `WinRAR.exe`（新保存的文件），如果能正常运行，`WinRAR_original.exe` 就可以删除了。
+如果无法运行，请将 `WinRAR.exe`（新保存的文件）删除，将 `WinRAR_original.exe` 重命名为 `WinRAR.exe`（初始文件名），并从头重复上述步骤。 
