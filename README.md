@@ -41,7 +41,8 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 **备注**：为了修改程序文件中内置的【资源】文件，我们得使用 Resource Hacker 这个资源编辑器和反编译器。这是它的[官网](https://www.angusj.com/resourcehacker/)。
 
-首先，我们先要在程序根目录下新建一个 `rarreg.key` 文件，文件内容为：
+首先，我们先要在程序根目录下新建一个 `rarreg.key` 文件，文件内容为（在下面的密钥文件中任选一个）：
+
 
 ```
 RAR registration data
@@ -55,6 +56,20 @@ UID=b621cca9a84bc5deffbf
 e9ee328f12dc73e90b6356b921fbfb8522d6562a6a4b97e8ef6c9f
 fb866be1e3826b5aa126a4d2bfe9336ad63003fc0e71c307fc2c60
 64416495d4c55a0cc82d402110498da970812063934815d81470829275
+```
+
+```
+RAR registration data
+F黵 Abonnenten von TheReatekker
+Unlimited Company License
+UID=4e6c1650cdf8ad615ffa
+64122122505ffaae408f7ad66b8bb746f58d6fa12007f52f099ed4
+6c1726e2317c46bb430560fce6cb5ffde62890079861be57638717
+7131ced835ed65cc743d9777f2ea71a8e32c7e593cf66794343565
+b41bcf56929486b8bcdac33d50ecf77399604752331f0c57e362ab
+443f1c64352b57668957fe62d07b434a2813addb4dbd3642364647
+103788926272ccc3fb675e8b657f8b66c671e01419e9e361603899
+c5a2af5001dd92308cfe644830edafe109c0e6cdd5864023283383
 ```
 
 保存后，使用 Resource Hacker 打开 `WinRAR.exe`（WinRAR 主程序文件），
