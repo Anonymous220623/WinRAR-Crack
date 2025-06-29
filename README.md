@@ -26,6 +26,16 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 如果你不信任此处提供的破解程序，请参阅下文的[破解方法](#如果我从官网上下载了-winrar-的简体中文版本那么如何去除该软件中的广告和评估版本水印)。
 
+### 可用的版本
+
+| 版本号 | 可用架构 | 下载地址  |
+|   --   |  --      |   --      |
+| v7.00 | x32/x64 | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.00) |
+| v7.01 | x32/x64 | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.01) |
+| v7.10 | x64     | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.10) |
+| v7.11 | x64     | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.11) |
+| v7.12 | x64     | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.12) |
+
 ## 随便聊聊
 
 如果你对 Windows PE 文件格式（具有 `*.exe`、`*.dll`、`*.sys` 等文件扩展名的文件格式）有一些基本了解，
