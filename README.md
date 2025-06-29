@@ -22,9 +22,7 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 ## 已去除广告并激活的 WinRAR 简体中文版软件下载地址
 
-- GitHub：https://github.com/Anonymous220623/WinRAR-Crack/releases
-
-如果你不信任此处提供的破解程序，请参阅下文的[破解方法](#如果我从官网上下载了-winrar-的简体中文版本那么如何去除该软件中的广告和评估版本水印)。
+- GitHub Release：https://github.com/Anonymous220623/WinRAR-Crack/releases
 
 ### 可用的版本
 
@@ -35,6 +33,9 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 | v7.10 | x64     | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.10) |
 | v7.11 | x64     | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.11) |
 | v7.12 | x64     | [GitHub Release](https://github.com/Anonymous220623/WinRAR-Crack/releases/tag/v7.12) |
+
+
+如果你不信任此处提供的破解程序，请参阅下文的[破解方法](#如果我从官网上下载了-winrar-的简体中文版本那么如何去除该软件中的广告和评估版本水印)。
 
 ## 随便聊聊
 
