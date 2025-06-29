@@ -84,7 +84,7 @@ LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 
 1. 将 String Table（字符串表资源）中的 `68:2052` 项替换为以下内容：
 
-   （更改了 1080、1081、1083 项）
+   （更改了资源 ID 为 1080、1081、1083 的字符串）
 
    ```
    STRINGTABLE
