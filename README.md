@@ -1,9 +1,16 @@
 # WinRAR-Crack
 
+> [!WARNING]
+> WinRAR 的唯一官网是：[https://www.rarlab.com](https://www.rarlab.com)，请勿轻易相信其他 WinRAR 软件代理公司的网站内容，
+> 如果你需要了解更详细的信息，请参见 [WinRAR 的维基百科页面](https://zh.wikipedia.org/zh-cn/WinRAR)（无法正常访问维基百科的大陆用户请看下面的网页截图）。
+> 
+> ![image](https://github.com/user-attachments/assets/add2fda3-5674-4022-8f6d-f7515b104149)
+
+
 WinRAR 一直是全世界电脑用户常用的压缩软件。
-正因如此，WinRAR 的开发团队 RarLab 会在世界各地寻找当地的软件代理公司给 WinRAR 做软件翻译和宣传推广。
+正因如此，WinRAR 的开发团队 RarLab 会在世界各地寻找当地的**软件代理公司**给 WinRAR 做**软件翻译**和**宣传推广**。
 但是，有一家来自中国大陆的公司打着【官网】的旗号，在 WinRAR 的主程序中插入他们自己的广告，
-即使用户在他们的【官网】上购买了 WinRAR，广告仍然无法去除。
+即使用户在他们的【官网】上购买了 WinRAR，广告仍然**无法去除**。
 更离谱的是，这个【官网】的备案号还是假的！
 
 这个所谓的【官网】就是：[winrar.com.cn](https://www.winrar.com.cn/) ，包括我在内的许多用户，都曾经不止一次地上过它的当。
@@ -27,9 +34,9 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 一些软件公司为了让他们的软件支持全球的语言，会选择将语言资源文件作为【资源】嵌入到程序文件中，WinRAR 就是这么做的。
 
-## 如何去除 WinRAR 简体中文版中的广告？
+## 如果我从【官网】上下载了 WinRAR 的简体中文版本，那么如何去除该软件中的广告？
 
-为了修改程序文件中内置的【资源】文件，我们得使用 Resource Hacker 这个资源编辑器和反编译器。这是它的[官网](https://www.angusj.com/resourcehacker/)。
+**备注**：为了修改程序文件中内置的【资源】文件，我们得使用 Resource Hacker 这个资源编辑器和反编译器。这是它的[官网](https://www.angusj.com/resourcehacker/)。
 
 首先，我们先要在程序根目录下新建一个 `rarreg.key` 文件，文件内容为：
 
