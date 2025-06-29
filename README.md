@@ -19,9 +19,11 @@ https://github.com/user-attachments/assets/e242a271-58cb-4195-9bc1-14c93e892778
 
 本人十分看不惯国内软件代理公司欺诈用户的行为，因此设立此仓库，还给用户一个【不流氓】的 WinRAR。
 
-## 软件下载地址
+## 已去除广告并激活的 WinRAR 简体中文版软件下载地址
 
 - GitHub：https://github.com/Anonymous220623/WinRAR-Crack/releases
+
+如果你不信任此处提供的破解程序，请参阅下文的[破解方法](#如果我从官网上下载了-winrar-的简体中文版本那么如何去除该软件中的广告)。
 
 ## 前言
 
